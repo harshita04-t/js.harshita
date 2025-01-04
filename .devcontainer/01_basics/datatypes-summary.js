@@ -10,4 +10,21 @@ const outsideTemp = null
 let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log( Id === anotherId);
+console.log( id === anotherId);
+console.log(typeof id);
+
+const bigNumber = 435444767
+
+// const heros = ["shaktiman","naagraj","Kimtaehyung"]//array
+
+// let myObj {
+//     name : "harshita",
+//     age : 20,
+
+// }
+
+const myFunction = function(){
+     console.log("Hello world");
+}
+
+console.log(typeof bigNumber);
