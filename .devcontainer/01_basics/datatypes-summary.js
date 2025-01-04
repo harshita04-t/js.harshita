@@ -10,8 +10,8 @@ const outsideTemp = null
 let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log( id === anotherId);
-console.log(typeof id);
+// console.log( id === anotherId);
+// console.log(typeof id);
 
 const bigNumber = 435444767
 
@@ -27,4 +27,29 @@ const myFunction = function(){
      console.log("Hello world");
 }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+//****************** */
+
+//stack(Primitive) we get copy, Heap(Non-Primitive) we reference of variable
+
+let myName = "harshitaChoudhary"
+
+let anothername = myName
+
+ anothername = "choudharyji"
+// console.log(anothername);
+// console.log(myName);
+
+let userOne ={
+     email: "harshita@gmail.com",
+     upi: "har@thv"
+}
+
+let userTwo = userOne
+
+userTwo.email = "harshi@google.com"
+
+userOne.upi = "harhitaathv"
+console.log(userOne);
+console.log(userTwo);
