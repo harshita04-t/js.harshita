@@ -1,0 +1,28 @@
+const score = 400
+const balance = new Number(100)
+// console.log(balance);
+// console.log(score);
+// console.log(typeof score);
+// console.log( typeof balance);
+
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(4));
+
+// const otherNumber = 123.8966
+// console.log(otherNumber.toPrecision(3));
+
+// const hundreds = 1000000
+// console.log(hundreds.toLocaleString());
+// console.log(hundreds.toLocaleString('en-IN'));
+//++++++++++++++++++++++++++++++++++Maths++++++++++++++++++++
+// Maths is a important library of JS
+
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.3));
+// console.log(Math.ceil(4.3));
+// console.log(Math.floor(4.9));
+
+console.log(Math.min(1,2,3,6,7));
+console.log(Math.max(8,0,4,6,3));
+
