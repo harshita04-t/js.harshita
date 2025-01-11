@@ -9,11 +9,12 @@
 //   myArr.push(7)
 //   console.log(myArr);
 //   myArr.pop()
-// myArr.unshift(6)
+//myArr.unshift(2)
 //    myArr.shift()
-
+   
+// console.log(myArr);
 //   console.log(myArr.includes(8)) // give boolean result 
-//   console.log(myArr.indexOf(8))
+ //console.log(myArr.indexOf(3));
 
 //  const newArr = myArr.join()
 
@@ -24,13 +25,15 @@
  
 //slice,splice
 
-console.log("A",myArr);
+// console.log("A",myArr);
 
-const myn1 = myArr.slice(1,3)
+// const myn1 = myArr.slice(1,3)
 
-console.log(myn1);
-console.log("B",myArr);
+// console.log(myn1);
+// console.log("B",myArr);
 
-const myn2 = myArr.splice(1,3);
-console.log("C",myArr);
-console.log(myn2);
+// const myn2 = myArr.splice(1,3);
+// console.log("C",myArr);
+// console.log(myn2);
+
+
