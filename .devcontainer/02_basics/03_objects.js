@@ -49,3 +49,29 @@ console.log(JsUser.greetingTwo());
 
 //console.log(tinderUser);
 
+const regularUser = {
+    email: "harshita@gmail.com",
+    fullname:{
+        userfullname:{
+            firstname: "Harshita",
+            lastname: "Choudhary"
+        }
+    }
+}
+
+//console.log(regularUser.fullname.userfullname.firstname);
+
+//combine the objects
+const obj1 = {1: "a" , 2: "b"}
+const obj2 = {3: "a" , 4: "b"}
+// const obj3 = {obj1,obj2}
+
+//const obj3 = Object.assign({},obj1,obj2)//optional parameter
+const obj3 = {...obj1,...obj2} //spread the object
+//console.log(obj3);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));//give answer in true and false
