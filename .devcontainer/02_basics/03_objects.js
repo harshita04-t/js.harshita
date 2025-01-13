@@ -38,3 +38,14 @@ JsUser.greetingTwo = function(){
 console.log(JsUser.greetingTwo());
 
 
+ //*************************** *singleton or By Constructor */
+ //const tinderUser = new Object() singleton
+
+ const tinderUser = {}
+
+ tinderUser.Id = "12345"
+ tinderUser.name = "Simmy"
+ tinderUser.isLoggedIn = false
+
+//console.log(tinderUser);
+
