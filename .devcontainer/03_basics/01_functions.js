@@ -41,11 +41,38 @@ function loginUserMessage(username = "sam"){ // we are given default  value in p
 
 // console.log(loginUserMessage("Harshita"));
 //console.log(loginUserMessage()); // if we don't give any argument in function the it well give undefined
-console.log(loginUserMessage("harshita")); // but if arguments are given then will over write the default value which is give as a parameter in function
-
-                                             
+// console.log(loginUserMessage("harshita")); // but if arguments are given then will over write the default value which is give as a parameter in function
 
 
+function calulateCartPrice(...num1){// rest operater
+    return num1 
+}         
+
+// console.log(calulateCartPrice(200, 400, 600));
+
+const user = {
+    username: "hitesh",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}` );
+    
+}
+
+//handleObject(user)
+
+handleObject({ // direct pass of object in function
+    username: "sam",
+    price: 399 
+})
+
+const myArray = [200, 400, 500]
+
+function returnSecondValue(getArray){
+ return getArray[2]
+}
+console.log(returnSecondValue(myArray));
 
 
 
