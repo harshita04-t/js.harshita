@@ -92,6 +92,6 @@ console.log(instructor);
 //     "name" :"hitesh",
 //     "coursename": "Js in hindi",
 //    "price" :"999",
-// } apl
+// } apl  
 
 
