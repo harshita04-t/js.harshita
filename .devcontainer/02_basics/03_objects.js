@@ -35,7 +35,7 @@ JsUser.greetingTwo = function(){
     
 }
 
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greetingTwo());
 
 
  //*************************** *singleton or By Constructor */
@@ -70,8 +70,28 @@ const obj2 = {3: "a" , 4: "b"}
 const obj3 = {...obj1,...obj2} //spread the object
 //console.log(obj3);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//give answer in true and false
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));//give answer in true and false
+//de-structuring of objects
+const course = {
+   coursename: "Js in hindi",
+   price:"999",
+   courseInstructor:"hitesh"
+}
+
+// const{courseInstructor} = course
+// console.log(courseInstructor);
+
+const{courseInstructor:instructor} = course
+console.log(instructor);
+
+// {   
+//     "name" :"hitesh",
+//     "coursename": "Js in hindi",
+//    "price" :"999",
+// } apl
+
+
