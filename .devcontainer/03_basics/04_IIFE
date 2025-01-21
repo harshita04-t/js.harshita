@@ -3,6 +3,11 @@
 {
     console.log(`DB CONNECTED`);
     
-})(
-    
-)
+}) ();
+
+(
+    (name) => {
+        console.log(`DB Connection two${name}`);
+        
+    }
+)("Harshita")
