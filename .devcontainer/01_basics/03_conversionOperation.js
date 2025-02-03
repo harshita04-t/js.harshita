@@ -43,3 +43,6 @@ let gameCounter = 100
 gameCounter++;
 console.log(gameCounter);
 
+const viv="50"
+console.log(typeof viv);
+console.log(typeof + viv);
