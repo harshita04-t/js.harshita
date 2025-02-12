@@ -1,0 +1,19 @@
+const coding = ["js","ruby","java","python","javascript","cpp"]
+
+// coding.forEach( (item) => {
+//     console.log(item);
+    
+// })
+
+//  const values = coding.forEach( (item) => {
+//     console.log(item);
+    
+// })
+
+// console.log(values); // it will not return any value
+
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+
+const newNums = myNums.filter( (babe) => babe>=4)
+//filter also access each value of array like for each loop but we have to give some conditions to it
+console.log(newNums);

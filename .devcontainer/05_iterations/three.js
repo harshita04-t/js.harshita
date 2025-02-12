@@ -33,15 +33,15 @@ map.set('FR',"France")
 console.log(map);
 
 for(const [key,value] of map){ // we can hold key value differently
-   // console.log(key,':-',value);
+   console.log(key,':-',value);
     
 }
 
-const myObject = {
-    'game1':'NFS',
-    'game2':'Spiderman',
-}
+// const myObject = {
+//     'game1':'NFS',
+//     'game2':'Spiderman',
+// }
 
-for (const [key,value] of myObject) { // it is not iteratable
-    console.log(key,':-',value);
-}
+// for (const [key,value] of myObject) { // it is not iteratable
+//     console.log(key,':-',value);
+// }
