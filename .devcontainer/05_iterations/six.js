@@ -14,6 +14,28 @@ const coding = ["js","ruby","java","python","javascript","cpp"]
 
 const myNums = [1,2,3,4,5,6,7,8,9,10]
 
-const newNums = myNums.filter( (babe) => babe>=4)
-//filter also access each value of array like for each loop but we have to give some conditions to it
+// const newNums = myNums.filter( (babe) => babe >= 4)
+// //filter also access each value of array like for each loop but we have to give some conditions to it
+// console.log(newNums);                                                 
+
+// const newNums = myNums.filter( (num) => {
+//     if (num > 4)
+//     {
+//         return num
+//     }
+    
+    
+// })
+
+// console.log(`this ${newNums} number are greater the 4`);
+
+
+const newNums = []
+
+myNums.forEach( (num) => {
+    if (num > 4) {
+        newNums.push(num)
+    }
+})
+
 console.log(newNums);
