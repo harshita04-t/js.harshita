@@ -30,12 +30,19 @@ const myNums = [1,2,3,4,5,6,7,8,9,10]
 // console.log(`this ${newNums} number are greater the 4`);
 
 
-const newNums = []
+// const newNums = []
 
-myNums.forEach( (num) => {
-    if (num > 4) {
-        newNums.push(num)
-    }
-})
+// myNums.forEach( (num) => {
+//     if (num > 4) {
+//         newNums.push(num)
+//     }
+// })
 
-console.log(newNums);
+// console.log(newNums);
+
+//  let userBooks = books.filter( (bk) => bk.genre === 'History')
+//  console.log(userBooks);
+
+//  userBooks= books.filter( (bk) => bk.publish >= 1995 && bk.genre=== "History")
+//  console.log(userBooks);
+ 
