@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+
+span{
+    display: block;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+body{
+    background-color:#fff;
+    color: black;
+    font-family: 'poppines',sans-serif;
+}
+
+h1{
+    text-align: center ;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+
+#pink{
+    background-color: pink;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#purple{
+    background-color:purple;
+}
